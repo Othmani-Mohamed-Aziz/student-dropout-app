@@ -1,0 +1,28 @@
+{
+  "format": "native-xgboost-v1",
+  "portable_models": "tuned_models_non_xgb.joblib",
+  "xgboost_models": [
+    {
+      "scenario": "Scenario A - Early",
+      "model_name": "XGBoost",
+      "model_file": "xgboost_native/model_0.json",
+      "preprocessor_file": "xgboost_native/preprocessor_0.joblib",
+      "model_step_name": "model",
+      "classes": [
+        0,
+        1
+      ]
+    },
+    {
+      "scenario": "Scenario B - After 1st semester",
+      "model_name": "XGBoost",
+      "model_file": "xgboost_native/model_1.json",
+      "preprocessor_file": "xgboost_native/preprocessor_1.joblib",
+      "model_step_name": "model",
+      "classes": [
+        0,
+        1
+      ]
+    }
+  ]
+}
